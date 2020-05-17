@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "fcd7ad81-641d-4c40-b904-ad57f92042d8",
+		"name": "Shopping cart API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/create",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/create",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sku\": \"123-123-123\",\n    \"title\": \"Apple iPhone Xr\",\n    \"quantity\": 1,\n    \"Price\": 12345\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/basket/78803de9-1077-41d6-a44f-42ee649105b0",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"basket",
+						"78803de9-1077-41d6-a44f-42ee649105b0"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
